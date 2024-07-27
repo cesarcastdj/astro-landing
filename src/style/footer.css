@@ -1,0 +1,27 @@
+footer {
+    background: #000a25;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content > a,
+.footer-content>p {
+    display: block;
+    margin-bottom: 0.3rem;
+    font-size: 0.9rem;
+}
+
+.footer-content > a {
+    color: inherit;
+}
+
+.footer-title {
+    margin-bottom: 1rem;
+}

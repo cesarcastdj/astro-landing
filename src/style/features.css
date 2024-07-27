@@ -1,0 +1,33 @@
+.title-feature {
+    /* color: red; */
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 2rem;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.feature-content {
+    padding: 1rem;
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    
+}
+
+.feature-content > .targe {
+    background: #585858;
+    padding: 1rem;
+    border-radius: 8px;
+    font-family: "Roboto", sans-serif;
+}
+
+.feature-content>.targe h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.feature-content>.targe p {
+    font-size: 0.8rem;
+    opacity: 0.7;
+}

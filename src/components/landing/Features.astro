@@ -1,1 +1,20 @@
-<h1>Feature</h1>
+---
+import "../../layouts/layouts.astro";
+import "../../style/features.css";
+
+import features from "../../config/Features.json";
+// console.log(feature);
+---
+
+<h1 class="title-feature">Feature</h1>
+
+<section class="feature-content">
+  {
+    features.map((feature) => (
+      <div class="targe">
+        <h2>{feature.title}</h2>
+        <p>{feature.descrition}</p>
+      </div>
+    ))
+  }
+</section>

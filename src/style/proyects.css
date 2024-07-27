@@ -1,0 +1,63 @@
+.title-proyect {
+    font-family: "Noto Sans JP", sans-serif;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 2.8rem;
+}
+
+.proyect-contenet {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    row-gap: 2rem;
+    margin: 3rem auto;
+    font-family: "Roboto", sans-serif;
+}
+
+.proyect-contenet .info-card {
+    place-content: center;
+    background: #585858;
+    padding: 0 1rem;
+    border-radius: 8px 0 0 8px;
+}
+
+.proyect-contenet .info-card .proyect-card-title {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 2rem;
+}
+
+.proyect-contenet .info-card .Proyect-proyect-card-paragra {
+    margin: 1rem 0;
+    font-size: 0.9rem;
+    line-height: 22px;
+    opacity: 0.7;
+}
+
+.proyect-contenet .info-card .btn-proyect {
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    background: #6b63ffb7;
+    cursor: pointer;
+    border: none;
+    color: #ffffffc7;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+.proyect-contenet .card-content-img {
+    overflow: hidden;
+}
+
+.proyect-contenet .card-content-img > img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 8px 8px 0px;
+    transition: 0.5s linear;
+    filter: blur(0.9px);
+}
+
+.proyect-contenet .card-content-img > img:hover {
+    filter: blur(0);
+    transform: scale(1.1);
+}

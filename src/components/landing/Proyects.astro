@@ -1,1 +1,27 @@
-<h1>Proyects</h1>
+---
+import "../../layouts/layouts.astro";
+import "../../style/proyects.css";
+
+import proyects from "../../config/Proyects.json";
+
+// console.log(proyects);
+---
+
+<h1 class="title-proyect">Proyects</h1>
+
+<section class="proyect-contenet">
+  {
+    proyects.map((proyect) => (
+      <>
+        <div class="info-card">
+          <h2 class="proyect-card-title">{proyect.title}</h2>
+          <p class="Proyect-proyect-card-paragra">{proyect.descrition}</p>
+          <button class="btn-proyect">View Project</button>
+        </div>
+        <div class="card-content-img">
+          <img class="img-card-proyect" src={proyect.image} />
+        </div>
+      </>
+    ))
+  }
+</section>

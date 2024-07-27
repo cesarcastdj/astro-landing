@@ -1,3 +1,49 @@
-.title-hero {
-    background: red;
+header {
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    background: #4b4b4b;
+    width: 100%;
+    display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+        /* place-content: center; */
+    gap: 24px;
+    overflow: hidden;
+}
+
+header .content-info-hero {
+    width: auto;
+}
+
+header .img-hero {
+    display: flex;
+    justify-content: end;
+}
+
+header .img-hero img {
+    width: 450px;
+    margin: auto;
+}
+
+.hero-title {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 2.5rem;
+}
+
+.hero-paragraph {
+    font-family: "Roboto", sans-serif;
+    margin: 1rem 0;
+    line-height: 22px;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.btn-hero {
+    padding: 1rem 3rem;
+    border-radius: 8px;
+    border: 1px solid #ffffff85;
+    background: #6b63ffb7;
+    color: #ffffffcb;
+    cursor: pointer;
+    
 }
